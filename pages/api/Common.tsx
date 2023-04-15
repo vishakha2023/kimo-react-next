@@ -1,5 +1,5 @@
 import { Endpoints} from "../constant/Constant"
-import { HTTPFetchServicesApi } from './httpFetchServices';
+// import { HTTPFetchServicesApi } from './httpFetchServices';
 export class Common {
  private base_url="https://web-dev.dev.kimo.ai";
 
@@ -10,7 +10,7 @@ return url;
 
  public getHighlight=()=>{
 const url=`${this.base_url}${Endpoints.HIGHLIGHT}`
-return HTTPFetchServicesApi.httpFetch(url);
+// return HTTPFetchServicesApi.httpFetch(url);
  }
 }
 
